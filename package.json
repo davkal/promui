@@ -2,9 +2,24 @@
   "name": "promui",
   "version": "0.1.0",
   "private": true,
+  "license": "Apache-2.0",
+  "author": "David Kaltschmidt",
+  "repository": "https://github.com/davkal/promui",
+  "bugs": "https://github.com/davkal/promui/issues",
+  "proxy": "http://localhost:9090",
   "dependencies": {
     "react": "^16.2.0",
-    "react-dom": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.17.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.6.1",
+    "husky": "^0.14.3",
+    "lint-staged": "^6.1.0",
+    "prettier": "^1.10.2",
     "react-scripts": "1.1.0"
   },
   "scripts": {
