@@ -17,7 +17,7 @@ class App extends Component {
             <a className="p-2 text-dark" href="https://prometheus.io/docs/introduction/overview/" target="docs">Help</a>
           </nav>
         </div>
-        <div className="container">
+        <div className="container-fluid">
           <Routes />
         </div>
       </div>
